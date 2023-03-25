@@ -10,7 +10,8 @@
     "SYS_RAWIO"
   ],
   "arch": [
-    "armhf"
+    "armhf",
+    "arm64"
   ],
   "map": ["config:rw", "share:rw"],
   "host_network": false,
