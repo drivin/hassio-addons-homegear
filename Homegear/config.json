@@ -1,14 +1,11 @@
 {
   "name": "Homegear",
-  "version": "0.2.13",
+  "version": "latest",
   "slug": "rpi-homegear",
   "description": "Homegear as a Hassio add-on",
   "startup": "before",
   "boot": "auto",
   "gpio": true,
-  "privileged": [
-    "SYS_RAWIO"
-  ],
   "arch": [
     "armhf",
     "arm64"
